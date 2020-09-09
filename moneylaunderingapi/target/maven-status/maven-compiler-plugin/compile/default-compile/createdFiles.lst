@@ -1,0 +1,5 @@
+edu\eci\arsw\exams\moneylaunderingapi\MoneyLaunderingController.class
+edu\eci\arsw\exams\moneylaunderingapi\service\MoneyLaunderingService.class
+edu\eci\arsw\exams\moneylaunderingapi\service\MoneyLaunderingServiceStub.class
+edu\eci\arsw\exams\moneylaunderingapi\model\SuspectAccount.class
+edu\eci\arsw\exams\moneylaunderingapi\MoneyLaunderingAPIApplication.class
