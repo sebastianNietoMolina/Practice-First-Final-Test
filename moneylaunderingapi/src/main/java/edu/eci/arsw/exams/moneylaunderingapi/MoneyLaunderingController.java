@@ -26,7 +26,7 @@ public class MoneyLaunderingController
         try {
             return new ResponseEntity<>(ml.getSuspectAccounts(), HttpStatus.ACCEPTED);
         } catch (MoneyLaunderingServiceException e) {
-            return new ResponseEntity<>("ERROR 500", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("ERROR 400", HttpStatus.NOT_FOUND);
         }
     }
 
@@ -45,7 +45,7 @@ public class MoneyLaunderingController
         try {
             return new ResponseEntity<>(ml.getSuspectAccountsById(accountId), HttpStatus.ACCEPTED);
         } catch (MoneyLaunderingServiceException e) {
-            return new ResponseEntity<>("ERROR 500", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("ERROR 400", HttpStatus.NOT_FOUND);
         }
     }
 
